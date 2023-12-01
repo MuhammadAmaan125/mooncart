@@ -9,6 +9,9 @@ function Shop() {
 
   return (
     <>
+
+	 {/*  Hero section start */}
+
    <div className='flex w-full  bg-[#fbfbfb] md:p-32 sm:p-10 p-5 '>
 <div className='flex flex-col gap-4 justify-center items-center w-full'>
     <h1 className='md:text-4xl text-2xl font-bold '>Shop Standard</h1>
@@ -16,7 +19,13 @@ function Shop() {
 </div>
    </div>
 
+   	 {/*  Hero section End */}
+
+
 <div className='flex flex-row w-full'>
+
+	 {/*  Side section start */}
+
 
 <div className='lg:w-[30%]'>
 <div className='w-full hidden lg:block '>
@@ -147,7 +156,11 @@ function Shop() {
 
 </div>
 
+	 {/*  Side section End */}
 
+
+
+	 {/*  Card section start */}
 
 <div className='lg:w-[70%] w-full '>
 
@@ -953,6 +966,7 @@ function Shop() {
 
 </div>
 
+	 {/*  Card section End */}
 
 
 
@@ -966,6 +980,7 @@ function Shop() {
 
 
 
+	 {/*  about shop section start */}
 
 <div className='flex w-full'>
 
@@ -1109,8 +1124,10 @@ function Shop() {
 
 </div>
 
+	 {/*  about shop section End */}
 
 
+	 {/*   shop Link section Start */}
 
 
 <div className='flex w-full   md:p-10 p-5 gap-5'>
@@ -1288,6 +1305,7 @@ function Shop() {
 </div>
 
 
+	 {/*   shop Link section End */}
 
 
 

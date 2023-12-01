@@ -7,7 +7,11 @@ function Hero() {
     <>
       <div className='flex lg:flex-row flex-col  p-10'>
 
+
 <div className='flex md:flex-row flex-col-reverse lg:w-[75%] w-full'>
+
+  {/*    CONVERTIBLE CAR SEATS section start */}
+
 
 <div className='flex  lg:w-[30%] md:[50%] w-full'>
 <div className='flex-col flex  mt-20' >
@@ -68,13 +72,23 @@ the shock</h1>
 </div>
 </div>
 
+  {/*    CONVERTIBLE CAR SEATS section end */}
+
+
+  {/*    CONVERTIBLE CAR SEATS Images section start */}
+
+
 <div className='lg:w-[70%] md:[50%] w-full'>
 <div className='flex justify-center items-center mt-5'>
     <img src="https://mooncart.dexignzone.com/xhtml/images/shop/product4.png" alt="" />
 </div>
 </div>
 
+  {/*    CONVERTIBLE CAR SEATS Images section end */}
+
+
 </div>
+  {/*   Safety Certified section start */}
 
 <div className='lg:w-[25%] w-full'>
 <div className='flex flex-col px-3 '>
@@ -143,11 +157,18 @@ Harness</h1> </li>
 
 
 </div>
-</div>
+</div> 
+
+  {/*   Safety Certified section start */}
+
 
       </div>
+  {/*   All Components start */}
 
       <Allcom/>
+
+        {/*   All Components End */}
+
     </>
   )
 }

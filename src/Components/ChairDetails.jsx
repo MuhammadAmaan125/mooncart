@@ -4,6 +4,7 @@ function ChairDetails() {
   return (
     <>
   
+      {/*  Car Seat Cards Sections Start */}
 
 
 <div className='flex flex-row p-3 w-full'>
@@ -40,14 +41,25 @@ function ChairDetails() {
 
 </div>
 
+      {/*  Car Seat Cards Sections End */}
+
+      {/*  Car Seat Specifications Sections Start */}
+
+
 <div className='flex lg:flex-row flex-col my-10 w-full'>
 
+      {/*  Car Seat Specifications Image Start */}
 
 <div className='flex lg:justify-end justify-center items-center p-5 lg:w-[50%] w-full'>
 <div>
     <img src={carseat2} alt="" />
 </div>
 </div>
+      {/*  Car Seat Specifications Image End */}
+
+
+            {/*  Car Seat Specifications Content Start */}
+
 
 <div className='flex flex-col lg:w-[50%] w-full lg:p-0 md:pl-20 p-3'>
 
@@ -84,9 +96,13 @@ function ChairDetails() {
 
 </div>
 
+            {/*  Car Seat Specifications Content End */}
 
 
 </div>
+
+      {/*  Car Seat Specifications Sections End */}
+
 
     </>
   )

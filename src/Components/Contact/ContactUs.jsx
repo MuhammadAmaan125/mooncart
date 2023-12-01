@@ -8,6 +8,9 @@ function ContactUs() {
 <div className='flex lg:flex-row flex-col w-full md:px-20 sm:px-10 px-5 pt-20 gap-5'>
 
 
+ {/*  Content section start */}
+
+
 <div className='flex flex-col gap-5 w-full'>
 
 <div className='flex flex-col gap-5'>
@@ -39,6 +42,12 @@ function ContactUs() {
 </div>
 
 </div>
+
+
+ {/*  Content section End */}
+
+ {/*  Form section start */}
+
 
 <div className='flex w-full  md:p-20 sm:p-10 p-5 bg-white  '>
 
@@ -139,14 +148,19 @@ function ContactUs() {
 </div>
 
 </div>
+ {/*  Form section End */}
 
 
 
 </div>
+
+ {/*  Map section start */}
+
 
 <div className=' w-full overflow-hidden '>
 <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7210.539444658995!2d68.35194690000002!3d25.362275300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394c7065c88cc7a1%3A0x364afa619c200668!2sRangers%20Office!5e0!3m2!1sen!2s!4v1701420771281!5m2!1sen!2s" width="1500" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
+ {/*  Map section End */}
 
    </div>
 

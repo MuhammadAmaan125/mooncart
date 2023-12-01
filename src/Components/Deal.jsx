@@ -49,6 +49,7 @@ function Deal() {
     
 <section className='lg:relative flex flex-col lg:h-[1700px] h-auto'>
 
+            {/*  Car Seat Deal Start */}
 
 <div className=' md:flex md:flex-row flex-col bg-[#24262b] p-11 lg:pb-60  '>
 <div className='flex flex-col flex-wrap lg:px-10 md:px-5 '>
@@ -115,8 +116,10 @@ function Deal() {
 
 
       </div> 
+            {/*  Car Seat Deal End */}
 
 
+            {/*  Car Seat Deal Cards Start */}
 
 
       <div className='md:mt-5 w-full lg:absolute flex lg:top-[600px] bg-transparent md:px-10 sm:px-5 px-3'>
@@ -240,6 +243,7 @@ function Deal() {
 </div>
 </div>
 
+            {/*  Car Seat Deal Cards End */}
 
 </section>
 

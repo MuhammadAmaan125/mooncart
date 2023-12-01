@@ -3,6 +3,8 @@ import React from "react";
 function HeroSection2() {
   return (
     <>
+ 
+{/*  REWARDS Sections start */}
       <div className="flex lg:flex-row md:flex-col flex-col ">
         <div className="flex md:flex-row flex-col   md:border-r-2 md:border-b-0 border-b-2   py-3 text-center items-center">
           <div className="md:w-1/4  text-center">
@@ -70,8 +72,12 @@ function HeroSection2() {
         </div>
       </div>
 
+{/*  REWARDS Sections End */}
 
-      
+      {/*  About Car Seat Sections Start */}
+
+
+
 
       <div className="flex md:flex-row  flex-col">
         <div className="md:w-[50%] ">
@@ -145,6 +151,7 @@ function HeroSection2() {
 
 
 
+      {/*  About Car Seat Sections End */}
 
 
 

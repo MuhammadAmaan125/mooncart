@@ -23,6 +23,9 @@ function Features() {
    </div>
 
 
+            {/*   quality Section Start */}
+
+
    <div className='bg-[#24262b] justify-evenly flex md:flex-row flex-col items-center '>
 
 
@@ -41,9 +44,11 @@ function Features() {
 
 </div> 
 
+            {/*   quality Section End */}
 
 
 
+            {/*   trending products Section Start */}
 
 
 <div className='flex md:flex-row flex-col w-full md:justify-between justify-center pt-10 px-10'>
@@ -147,6 +152,8 @@ function Features() {
 
 
 </div>
+            {/*   trending products Section End */}
+
 
    </>
   )
